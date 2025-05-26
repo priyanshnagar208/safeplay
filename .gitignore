@@ -6,7 +6,6 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
 node_modules
 dist
 dist-ssr
@@ -22,3 +21,17 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# Node dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Local env variables
+.env
+
+# Mac system files
+.DS_Store
+
+# Vercel output cache (optional)
+.vercel/

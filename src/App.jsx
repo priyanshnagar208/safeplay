@@ -10,7 +10,7 @@ import Header from "./components/Header";
 import { colors } from "./theme";
 import HowItWorks from "./components/HowItWorks";
 import CTA from "./components/CTA";
-import Pricing from "./components/pricing";
+import Pricing from "./components/Pricing"
 import SchedulePage from "./pages/SchedulePage";
 export default function App() {
   return (
